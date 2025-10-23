@@ -109,14 +109,14 @@ InitTestScene*.unity*
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
 /.vscode
-
+/.unity
 
 # Assetsフォルダ配下を基本全除外
 Assets/*
 
 # でも管理したいフォルダだけ含める
-!Assets/Dev/
-!Assets/Dev.meta
+!Assets/Core/
+!Assets/Core.meta
 
 # でもPackagesのlock系は除外
 Packages/packages-lock.json
