@@ -25,6 +25,7 @@
 *.blend1.meta
 *.blend2
 *.blend2.meta
+*.dvignore
 
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
@@ -110,6 +111,7 @@ InitTestScene*.unity*
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
 /.vscode
 /.unity
+/.diversion
 
 # Assetsフォルダ配下を基本全除外
 Assets/*
